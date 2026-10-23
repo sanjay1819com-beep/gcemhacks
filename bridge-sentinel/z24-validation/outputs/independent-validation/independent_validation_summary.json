@@ -1,0 +1,31 @@
+{
+  "experiment": "independent_vibration_only_processed_z24_validation",
+  "protocol": {
+    "training_reference_setups": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "channel_selection_setups": [
+      5,
+      6
+    ],
+    "final_untouched_test_setups": [
+      7,
+      8
+    ]
+  },
+  "label_interpretation": "Label 0 is provisionally treated as reference and all other labels as non-reference. Official Z24 scenario metadata is required before naming non-reference labels as damage.",
+  "selected_processed_channel": 4,
+  "selection_roc_auc": 0.8656250000000001,
+  "final_metrics": {
+    "roc_auc": 0.560546875,
+    "average_precision": 0.9522260532374494,
+    "reference_false_positive_rate": 0.0,
+    "non_reference_alert_rate": 0.090625
+  },
+  "final_threshold": 0.575552604392612,
+  "limitation": "The selected index is not a verified physical bridge location. This validates a preliminary accelerometer vibration-anomaly workflow, not distributed-fiber sensing or fiber localization."
+}

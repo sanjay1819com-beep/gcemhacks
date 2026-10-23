@@ -1,0 +1,46 @@
+{
+  "experiment": "vibration_only_z24_isolation_forest_preliminary",
+  "label_interpretation": "Label 0 is provisionally treated as the reference class and every other label as a non-reference scenario. Official Z24 scenario metadata must be checked before calling any non-reference class damage.",
+  "data_shape": [
+    1530,
+    27,
+    6000
+  ],
+  "selected_channels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sampling_rate_hz": 100.0,
+  "bandpass_hz": [
+    0.5,
+    30.0
+  ],
+  "healthy_label": 0,
+  "train_setups": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "test_setups": [
+    6,
+    7,
+    8
+  ],
+  "train_windows": 60,
+  "test_windows": 510,
+  "test_healthy_windows": 30,
+  "test_non_reference_windows": 480,
+  "threshold_95pct_healthy_train": 0.5617588880405482,
+  "roc_auc": 0.6281944444444444,
+  "average_precision": 0.9680802715309634,
+  "test_false_positive_rate": 0.0,
+  "test_non_reference_alert_rate": 0.14791666666666667,
+  "limitation": "This validates vibration anomaly detection on accelerometer records. It does not directly validate distributed-fiber sensing or fiber-specific localization."
+}

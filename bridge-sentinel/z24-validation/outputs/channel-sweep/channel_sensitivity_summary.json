@@ -1,0 +1,52 @@
+{
+  "experiment": "preliminary_processed_z24_channel_sensitivity",
+  "interpretation": "Exploratory ranking of processed acceleration channels under a vibration-only, setup-held-out baseline. Channel meanings and scenario labels require official metadata verification.",
+  "data_shape": [
+    1530,
+    27,
+    6000
+  ],
+  "reference_label": 0,
+  "top_five_channels_by_roc_auc": [
+    {
+      "channel_index": 6,
+      "roc_auc": 0.7777083333333333,
+      "average_precision": 0.979243812475996,
+      "reference_false_positive_rate": 0.03333333333333333,
+      "non_reference_alert_rate": 0.11875,
+      "threshold": 0.5712519629549216
+    },
+    {
+      "channel_index": 3,
+      "roc_auc": 0.7599305555555557,
+      "average_precision": 0.9790944814677447,
+      "reference_false_positive_rate": 0.0,
+      "non_reference_alert_rate": 0.0625,
+      "threshold": 0.5977389745350337
+    },
+    {
+      "channel_index": 20,
+      "roc_auc": 0.7571527777777777,
+      "average_precision": 0.97821442247412,
+      "reference_false_positive_rate": 0.0,
+      "non_reference_alert_rate": 0.11458333333333333,
+      "threshold": 0.5876197440170919
+    },
+    {
+      "channel_index": 17,
+      "roc_auc": 0.7340277777777777,
+      "average_precision": 0.9782704891333978,
+      "reference_false_positive_rate": 0.0,
+      "non_reference_alert_rate": 0.10416666666666667,
+      "threshold": 0.5921598296687617
+    },
+    {
+      "channel_index": 16,
+      "roc_auc": 0.7325694444444445,
+      "average_precision": 0.974328939498651,
+      "reference_false_positive_rate": 0.0,
+      "non_reference_alert_rate": 0.05416666666666667,
+      "threshold": 0.5809383992179802
+    }
+  ]
+}
